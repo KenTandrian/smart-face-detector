@@ -182,6 +182,7 @@ class App extends React.Component {
       this.setState({isSignedIn: true});
     }
     this.setState({route: route});
+    //console.log(this.state.isSignedIn, this.state.route);
   }
 
   // componentDidMount() {
