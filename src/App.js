@@ -1,6 +1,5 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import Clarifai from 'clarifai';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import Rank from './components/Rank/Rank';
@@ -9,12 +8,6 @@ import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
 import './App.css';
-
-// console.log('Clarifai', Clarifai);
-
-const app = new Clarifai.App({
-  apiKey: '66feb1d09b85417cbd5ddaca5d558e47'
-});
 
 const particlesOptions = {
   fpsLimit: 60,
@@ -156,26 +149,32 @@ class App extends React.Component {
   onPictureSubmit = () => {
     this.setState({imageUrl: this.state.input});
     // The parameters are Model ID and a sample photo
-    app.models
-      .predict(Clarifai.FACE_DETECT_MODEL, this.state.input)
-      .then(response => {
-        if(response) {
-          fetch('http://localhost:3000/image', {
-            method: 'put',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                id: this.state.user.id
-            })
-          })
-          .then(response => response.json())
-          .then(count => {
-            this.setState(Object.assign(this.state.user, {entries: count})) // use Object.assign so that the whole user is not replaced
-          })
-          .catch(console.log);
-        }
-        this.displayFaceBox(this.calculateFaceLocation(response))
+    fetch('https://floating-springs-42580.herokuapp.com/imageurl', {
+      method: 'post',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+          input: this.state.input
       })
-      .catch(err => console.log(err));
+    })
+    .then(response => response.json())
+    .then(response => {
+      if(response) {
+        fetch('https://floating-springs-42580.herokuapp.com/image', {
+          method: 'put',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({
+              id: this.state.user.id
+          })
+        })
+        .then(response => response.json())
+        .then(count => {
+          this.setState(Object.assign(this.state.user, {entries: count})) // use Object.assign so that the whole user is not replaced
+        })
+        .catch(console.log);
+      }
+      this.displayFaceBox(this.calculateFaceLocation(response))
+    })
+    .catch(err => console.log(err));
   }
 
   onRouteChange = (route) => {
