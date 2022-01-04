@@ -98,23 +98,25 @@ const particlesLoaded = (container) => {
   //console.log(container);
 };
 
+const initialState = {
+  input: '',
+  imageUrl: '',
+  box: {},
+  route: 'signin',
+  isSignedIn: false,
+  user: {
+    id: '',
+    name: '',
+    email: '',
+    entries: 0,
+    joined: ''
+  }
+}
+
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
-      input: '',
-      imageUrl: '',
-      box: {},
-      route: 'signin',
-      isSignedIn: false,
-      user: {
-        id: '',
-        name: '',
-        email: '',
-        entries: 0,
-        joined: ''
-      }
-    }
+    this.state = initialState;
   }
 
   loadUser = (data) => {
@@ -169,6 +171,7 @@ class App extends React.Component {
           .then(count => {
             this.setState(Object.assign(this.state.user, {entries: count})) // use Object.assign so that the whole user is not replaced
           })
+          .catch(console.log);
         }
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
@@ -177,11 +180,15 @@ class App extends React.Component {
 
   onRouteChange = (route) => {
     if (route === 'signout'){
-      this.setState({isSignedIn: false});
+      this.setState(initialState);
+      this.setState({route: 'signin'});
     } else if (route === 'home') {
       this.setState({isSignedIn: true});
+      this.setState({route: route});
+    } else {
+      this.setState({route: route});
     }
-    this.setState({route: route});
+    
     //console.log(this.state.isSignedIn, this.state.route);
   }
 
