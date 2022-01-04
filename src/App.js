@@ -10,7 +10,7 @@ import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
 import './App.css';
 
-console.log('Clarifai', Clarifai);
+// console.log('Clarifai', Clarifai);
 
 const app = new Clarifai.App({
   apiKey: '66feb1d09b85417cbd5ddaca5d558e47'
