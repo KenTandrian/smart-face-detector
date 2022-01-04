@@ -219,7 +219,7 @@ class App extends React.Component {
               <FaceRecognition box={box} imageUrl={imageUrl}/>
             </div> 
           : (
-            route == "signin" 
+            route === "signin" 
             ? <SignIn onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
             : <Register onRouteChange={this.onRouteChange} loadUser={this.loadUser}/>
           )
