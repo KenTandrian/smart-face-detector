@@ -1,4 +1,9 @@
 # Smart Face Detector
+[![issues](https://img.shields.io/github/issues/KenTandrian/smart-face-detector)](https://github.com/KenTandrian/smart-face-detector/issues)
+[![language](https://img.shields.io/github/languages/count/KenTandrian/smart-face-detector)](https://github.com/KenTandrian/smart-face-detector/search?l=javascript)
+[![top-language](https://img.shields.io/github/languages/top/KenTandrian/smart-face-detector)](https://github.com/KenTandrian/smart-face-detector/search?l=javascript)
+[![commit](https://img.shields.io/github/commit-activity/m/KenTandrian/smart-face-detector)](https://github.com/KenTandrian/smart-face-detector/commits/main)
+[![last-commit](https://img.shields.io/github/last-commit/KenTandrian/smart-face-detector)](https://github.com/KenTandrian/smart-face-detector/commits/main)
 
 ## Introduction
 Smart Face Detector is a face detector application made with React JS, Node JS, Express JS, and PostgreSQL.
@@ -23,9 +28,11 @@ You can do these commands in Git Bash:\
 [![Heroku](https://img.shields.io/badge/-Heroku-black?style=flat-square&logo=heroku)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
-[`clarifai`](https://www.npmjs.com/package/clarifai)\
-[`gh-pages`](https://www.npmjs.com/package/gh-pages)\
-[`heroku`](https://www.npmjs.com/package/heroku)\
-[`react-parallax-tilt`](https://www.npmjs.com/package/react-parallax-tilt)\
-[`react-router-dom`](https://www.npmjs.com/package/react-router-dom)\
-[`react-tsparticles`](https://www.npmjs.com/package/react-tsparticles)
+[![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react)](https://www.npmjs.com/package/react)
+[![react-parallax-tilt](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react-parallax-tilt)](https://www.npmjs.com/package/react-parallax-tilt)
+[![react-tsparticles](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react-tsparticles)](https://www.npmjs.com/package/react-tsparticles)
+
+[Go to List of Dependencies](https://github.com/KenTandrian/smart-face-detector/network/dependencies)
+
+## 
+&#169; Ken Tandrian 2022.
