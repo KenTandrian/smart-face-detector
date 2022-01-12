@@ -8,7 +8,7 @@ Open in HerokuApp: https://smart-brain-ktandrian.herokuapp.com/
 
 ## For Developers who Forked this Repo
 You can do these commands in Git Bash:\
-`npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+`npm start` > Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 `npm test`\
 `npm run build`\
 `npm run eject`
