@@ -19,20 +19,28 @@ You can do these commands in Git Bash:\
 `npm run eject`
 
 ## Technologies
-[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=flat-square&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
-[![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white)](https://github.com/KenTandrian?tab=repositories&language=html)
-[![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)](https://github.com/KenTandrian?tab=repositories&language=css)
-[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql)](https://github.com/KenTandrian?tab=repositories)
-[![Heroku](https://img.shields.io/badge/-Heroku-black?style=flat-square&logo=heroku)](https://github.com/KenTandrian?tab=repositories)
+[![HTML5](https://img.shields.io/badge/-HTML5-black?style=for-the-badge&logo=html5&logoColor=%23E34F26)](https://github.com/KenTandrian?tab=repositories&language=html)
+[![CSS3](https://img.shields.io/badge/-CSS3-black?style=for-the-badge&logo=css3&logoColor=%231572B6)](https://github.com/KenTandrian?tab=repositories&language=css)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)](https://github.com/KenTandrian?tab=repositories)
+[![Nodejs](https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![React](https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react)](https://github.com/KenTandrian?tab=repositories&language=javascript)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=for-the-badge&logo=postgresql)](https://github.com/KenTandrian?tab=repositories)
+[![Heroku](https://img.shields.io/badge/-Heroku-black?style=for-the-badge&logo=heroku&logoColor=%23430098)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
+[![clarifai](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/clarifai)](https://www.npmjs.com/package/clarifai)
 [![react](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react)](https://www.npmjs.com/package/react)
 [![react-parallax-tilt](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react-parallax-tilt)](https://www.npmjs.com/package/react-parallax-tilt)
 [![react-tsparticles](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/react-tsparticles)](https://www.npmjs.com/package/react-tsparticles)
+[![serve](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/serve)](https://www.npmjs.com/package/serve)
+[![tachyons](https://img.shields.io/github/package-json/dependency-version/KenTandrian/smart-face-detector/tachyons)](https://www.npmjs.com/package/tachyons)
 
 [Go to List of Dependencies](https://github.com/KenTandrian/smart-face-detector/network/dependencies)
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/60643640/149144161-9812dbea-4df4-4121-84ac-77bf06fec83e.png)
+
 ## 
 &#169; Ken Tandrian 2022.
+
