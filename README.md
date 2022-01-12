@@ -7,11 +7,11 @@ This project is made as a capstone project for Zero to Mastery Academy, and was 
 Open in HerokuApp: https://smart-brain-ktandrian.herokuapp.com/
 
 ## For Developers who Forked this Repo
-You can do these commands in Git Bash:
-`npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-`npm test`
-`npm run build`
-`npm run eject`
+You can do these commands in Git Bash:\
+`npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+`npm test`\
+`npm run build`\
+`npm run eject`\
 
 ## Technologies
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
