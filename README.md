@@ -11,7 +11,7 @@ You can do these commands in Git Bash:\
 `npm start`: Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 `npm test`\
 `npm run build`\
-`npm run eject`\
+`npm run eject`
 
 ## Technologies
 [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://github.com/KenTandrian?tab=repositories&language=javascript)
@@ -23,6 +23,9 @@ You can do these commands in Git Bash:\
 [![Heroku](https://img.shields.io/badge/-Heroku-black?style=flat-square&logo=heroku)](https://github.com/KenTandrian?tab=repositories)
 
 ## Dependencies
-[`clarifai`](https://www.npmjs.com/package/clarifai)
-[`heroku`](https://www.npmjs.com/package/heroku)
-[`react-router-dom`](https://www.npmjs.com/package/react-router-dom)
+[`clarifai`](https://www.npmjs.com/package/clarifai)\
+[`gh-pages`](https://www.npmjs.com/package/gh-pages)\
+[`heroku`](https://www.npmjs.com/package/heroku)\
+[`react-parallax-tilt`](https://www.npmjs.com/package/react-parallax-tilt)\
+[`react-router-dom`](https://www.npmjs.com/package/react-router-dom)\
+[`react-tsparticles`](https://www.npmjs.com/package/react-tsparticles)
