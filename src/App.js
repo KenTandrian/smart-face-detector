@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
+import { loadFull } from "tsparticles";
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import Rank from './components/Rank/Rank';
@@ -62,7 +63,6 @@ const particlesOptions = {
       straight: false,
     },
     number: {
-      value: 30,
       density: {
         enable: true,
         area: 1000,
@@ -83,8 +83,9 @@ const particlesOptions = {
   detectRetina: true,
 }
 
-const particlesInit = (main) => {
+const particlesInit = async (main) => {
   //console.log(main);
+  await loadFull(main);
 };
 
 const particlesLoaded = (container) => {
